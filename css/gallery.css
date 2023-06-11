@@ -1,0 +1,109 @@
+#portfolio {
+    box-sizing: border-box;
+    padding: 20px;
+    margin: auto;
+  }
+  
+  /* Center website */
+  /*.main {
+    max-width: 1000px;
+    margin: auto;
+  }*/
+  
+  #portfolio .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  #portfolio .row,
+  #portfolio .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  #portfolio .column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide columns by default */
+  }
+  
+  /* Clear floats after rows */
+  #portfolio .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  #portfolio .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  #portfolio .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  #portfolio #myBtnContainer .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #333333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  #portfolio #myBtnContainer .btn:hover {
+    background-color: #fff;
+    color: #333333;
+    font-weight: bolder;
+  }
+  
+  /* Add a dark background color to the active button */
+  #portfolio #myBtnContainer .btn.active {
+    background-color: #F85A71;
+    color: #fff;
+  }
+
+  .portfolio_gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+
+  .project_grid {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+
+  .project_grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+    margin-bottom: 15px;
+  }
+
+  .project_grid_overlay {
+    text-align: center;
+    font-size: 20px;
+    line-height: 2.5px;
+    color: #333;
+    margin: 0;
+  }
+
+  a .project_grid_overlay h3:hover, a .project_grid_overlay p:hover {
+    color: #F85A71 !important;
+  }
+
+  .project_grid:hover img {
+    transform: scale(1.1);
+  }
+
+  .project_grid:hover .project_grid_overlay {
+    opacity: 1;
+  }
