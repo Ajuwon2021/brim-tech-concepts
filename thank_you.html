@@ -105,23 +105,33 @@
     </style>
 </head>
     <body>
-        <div class=content>
-            <div class="wrapper-1">
-                <div class="wrapper-2">
-                    <h1>Thank you !</h1>
-                    <p>Thanks for reaching out to me.</p>
-                    <p>you should receive a reply email soon  </p>
-                    <button class="go-home">
-                        <a href="index.html">go home</a>
-                    </button>
-                </div>
-                <div class="footer-like">
-                <!--<p>Email not received?
-                <a href="#">Click here to send again</a>
-                </p>-->
-                </div>
+        <div class="content">
+        <div class="wrapper-1">
+            <div class="wrapper-2">
+                <h1>Thank you, <span id="senderName"></span>!</h1>
+                <p>Thanks for reaching out to me.</p>
+                <p>You should receive a reply email soon.</p>
+                <button class="go-home">
+                    <a href="index.html">Go Home</a>
+                </button>
             </div>
-        </div>    
+            <div class="footer-like">
+                <!-- <p>Email not received? <a href="#">Click here to send again</a></p> -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Get the sender's name from the query parameter in the URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const senderName = urlParams.get('name');
+
+        // Update the <span> element with the sender's name
+        const senderNameElement = document.getElementById('senderName');
+        if (senderNameElement && senderName) {
+            senderNameElement.textContent = senderName;
+        }
+    </script>    
     </body>
 </html>
 
