@@ -92,15 +92,34 @@
 	#mainNav.navbar-shrink .navbar-nav .nav-link.active{
 		color: #333333;
 	}
+
+	.heading {
+		text-align: center !important;
+		
+	}
+
 	.heading h1{
-		font-size: 28px;
+		font-size: 15px !important;
+		color: purple;
+		margin: 250px -50px 0px 0px !important;
+		
 	}
 	.heading p{
-		font-size: 14px;
+		font-size: 10px !important;
+		margin: 20px -50px 0px 0px !important;
 	}
+
 	.cd-headline.clip span{
-		font-size: 20px;
+		font-size: 15px !important;
+		color: blue !important;
+		margin: 10px 0px 100px 0px !important;
 	}
+
+	.cd-words-wrapper b {
+		color: blue !important;
+		margin: 0px 0px 0px 0px !important;
+	}
+
 	.section-title h3{
 		font-size: 28px;
 	}
