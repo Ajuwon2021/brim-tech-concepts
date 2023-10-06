@@ -129,7 +129,7 @@
 }
 @media only screen and (min-width: 280px) and (max-width: 599px) {
 	#mainNav {
-		background-color: #333333;
+		background-color: transparent;
 	}
 	.navbar-dark .navbar-brand{
 		width: 55%;
