@@ -1,7 +1,7 @@
 /******************************************
     Version: 1.0
 /****************************************** */
-
+/*
 @media only screen and (min-width: 992px) and (max-width: 1199px) {}
 @media (min-width: 768px) and (max-width: 991px) {
 	#mainNav {
@@ -208,4 +208,575 @@
 		text-align: center;
 	}
 	
+}*/
+
+
+/* Styles for Mobile S - 320px */
+@media only screen and (max-width: 320px) {
+    /* Your CSS styles for Mobile S here */
+	.navbar {
+		background-color: rgba(255, 255, 255, 1%);
+	}
+
+	.logo {
+		width: 150px !important;
+		margin-left: -23px;
+	}
+
+	.navbar-toggler {
+		background-color: #F85A71;
+	}
+
+	.navbar-toggler .fa-bars, .navbar-toggler span {
+		font-size: x-small;
+		color: #fff;
+	}
+
+	.collapse ul {
+		background-color: rgba(255, 255, 255, 1%);
+	}
+
+	.navbar-collapse ul .nav-item a {
+		color: #333 !important;
+		line-height: 1;
+		margin-right: -100px;
+		background-color: transparent !important;
+		position: absolute;
+		top: 100%;
+		right: 0;
+		z-index: 2;
+		
+	}
+	.navbar-dark .navbar-nav .nav-link::after {
+		background-color: transparent !important;
+	}
+
+	#mainNav.navbar-shrink {
+		background-color: transparent;
+	}
+
+	.message-box h2 {
+		font-size: medium;
+		text-align: center;
+	}
+
+	.message-box p {
+		text-align: center;
+	}
+
+	.sim-btn {
+		padding: 5px;
+		font-size: 10px !important;
+		text-align: center;
+		margin-left: 37%;
+		margin-bottom: 20px;
+	}
+
+	#home {
+		background-image: url(../images/little.png) !important;
+		background-size: cover !important;
+		position: relative !important;
+		height: 400px;
+	}
+
+	#home .heading h1 {
+		font-size: 15px !important;
+		margin-top: 200px;
+		color: #E788FB !important;
+		text-align: center;
+		margin-left: 30px;
+	}
+
+	.cd-headline .special {
+		font-size: small !important;
+		color: #333333 !important;
+		text-align: center !important;
+		margin-left: 60px;
+		
+	}
+
+	.cd-headline .cd-words-wrapper {
+		font-size: 14px !important;
+		color: #333333 !important;
+		text-align: center !important;
+	}
+
+	.btn-ber {
+		font-size: 13px;
+		text-align: center;
+	}
+
+	.btn-ber .learn_btn {
+		padding: 5px;
+	}
+
+	.section.lb h3 {
+		font-size: 25px;
+	}
+
+	section.lb p {
+		font-size: 18px;
+	}
+
+	.services-inner-box {
+		text-align: center;
+	}
+
+	.services-inner-box h2 {
+		margin-top: -75px;
+	}
+
+	#myBtnContainer .btn {
+		padding: 5px 4px !important;
+		font-size: 10px;
+	}
+
+	.project_grid_overlay h3 {
+		font-size: 10px !important;
+		font-weight: 500;
+	}
+	
 }
+
+/* Styles for Mobile M - 375px */
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    /* Your CSS styles for Mobile M here */
+	.navbar {
+		background-color: rgba(255, 255, 255, 1%);
+	}
+
+	.logo {
+		width: 150px !important;
+		margin-left: -23px;
+	}
+
+	.navbar-toggler {
+		background-color: #F85A71;
+	}
+
+	.navbar-toggler .fa-bars, .navbar-toggler span {
+		font-size: x-small;
+		color: #fff;
+	}
+
+	.collapse ul {
+		background-color: rgba(255, 255, 255, 1%);
+	}
+
+	.navbar-collapse ul .nav-item a {
+		color: #333 !important;
+		line-height: 1;
+		margin-right: -100px;
+		background-color: transparent !important;
+		position: absolute;
+		top: 100%;
+		right: 0;
+		z-index: 2;
+		
+	}
+	.navbar-dark .navbar-nav .nav-link::after {
+		background-color: transparent !important;
+	}
+
+	#mainNav.navbar-shrink {
+		background-color: transparent;
+	}
+
+	.message-box h2 {
+		font-size: medium;
+		text-align: center;
+	}
+
+	.message-box p {
+		text-align: center;
+	}
+
+	.sim-btn {
+		padding: 5px;
+		font-size: 10px !important;
+		text-align: center;
+		margin-left: 37%;
+		margin-bottom: 20px;
+	}
+
+	#home {
+		background-image: url(../images/little.png) !important;
+		background-size: cover !important;
+		position: relative !important;
+		height: 400px;
+	}
+
+	#home .heading h1 {
+		font-size: 15px !important;
+		margin-top: 200px;
+		color: #E788FB !important;
+		text-align: center;
+		margin-left: 60px;
+	}
+
+	.cd-headline .special {
+		font-size: small !important;
+		color: #333333 !important;
+		text-align: center !important;
+		margin-left: 75px;
+		
+	}
+
+	.cd-headline .cd-words-wrapper {
+		font-size: 14px !important;
+		color: #333333 !important;
+		text-align: center !important;
+	}
+
+	.btn-ber {
+		font-size: 13px;
+		text-align: center;
+	}
+
+	.btn-ber .learn_btn {
+		padding: 5px;
+	}
+
+	.section.lb h3 {
+		font-size: 25px;
+	}
+
+	section.lb p {
+		font-size: 18px;
+	}
+
+	.services-inner-box {
+		text-align: center;
+	}
+
+	.services-inner-box h2 {
+		margin-top: -75px;
+	}
+
+	#myBtnContainer .btn {
+		padding: 5px 12px !important;
+		font-size: 12px;
+	}
+
+	.project_grid_overlay h3 {
+		font-size: 10px !important;
+		font-weight: 500;
+	}
+
+}
+
+/* Styles for Mobile L - 425px */
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+    /* Your CSS styles for Mobile L here */
+	.navbar {
+		background-color: rgba(255, 255, 255, 1%);
+	}
+
+	.logo {
+		width: 150px !important;
+		margin-left: -23px;
+	}
+
+	.navbar-toggler {
+		background-color: #F85A71;
+	}
+
+	.navbar-toggler .fa-bars, .navbar-toggler span {
+		font-size: x-small;
+		color: #fff;
+	}
+
+	.collapse ul {
+		background-color: rgba(255, 255, 255, 1%);
+	}
+
+	.navbar-collapse ul .nav-item a {
+		color: #333 !important;
+		line-height: 1;
+		margin-right: -100px;
+		background-color: transparent !important;
+		position: absolute;
+		top: 100%;
+		right: 0;
+		z-index: 2;
+		
+	}
+	.navbar-dark .navbar-nav .nav-link::after {
+		background-color: transparent !important;
+	}
+
+	#mainNav.navbar-shrink {
+		background-color: transparent;
+	}
+	#home {
+		background-image: url(../images/little.png) !important;
+		background-size: cover !important;
+		position: relative !important;
+		height: 400px;
+	}
+
+	.message-box h2 {
+		font-size: medium;
+		text-align: center;
+	}
+
+	.message-box p {
+		text-align: center;
+	}
+
+	.sim-btn {
+		padding: 5px;
+		font-size: 10px !important;
+		text-align: center;
+		margin-left: 37%;
+		margin-bottom: 20px;
+	}
+
+	#home .heading h1 {
+		font-size: 15px !important;
+		margin-top: 200px;
+		color: #E788FB !important;
+		text-align: center;
+		margin-left: 60px;
+	}
+
+	.cd-headline .special {
+		font-size: small !important;
+		color: #333333 !important;
+		text-align: center !important;
+		margin-left: 75px;
+		
+	}
+
+	.cd-headline .cd-words-wrapper {
+		font-size: 14px !important;
+		color: #333333 !important;
+		text-align: center !important;
+	}
+
+	.btn-ber {
+		font-size: 13px;
+		text-align: center;
+	}
+
+	.btn-ber .learn_btn {
+		padding: 5px;
+	}
+
+	.section.lb h3 {
+		font-size: 25px;
+	}
+
+	section.lb p {
+		font-size: 18px;
+	}
+
+	.services-inner-box {
+		text-align: center;
+	}
+
+	.services-inner-box h2 {
+		margin-top: -75px;
+	}
+
+	#myBtnContainer .btn {
+		padding: 5px 20px !important;
+		font-size: 12px;
+	}
+
+	.project_grid_overlay h3 {
+		font-size: 12px !important;
+		font-weight: 500;
+	}
+
+
+}
+
+/* Styles for Tablet - 768px */
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    /* Your CSS styles for Tablet here */
+	.navbar {
+		background-color: rgba(255, 255, 255, 1%);
+	}
+
+	.logo {
+		width: 150px !important;
+		margin-left: -23px;
+	}
+	
+	.collapse ul {
+		background-color: rgba(255, 255, 255, 1%);
+	}
+
+	.navbar-collapse ul .nav-item a {
+		line-height: 1;
+		margin-right: -100px;
+		background-color: transparent !important;
+		position: absolute;
+		top: 100%;
+		right: 0;
+		z-index: 2;
+		
+	}
+	.navbar-dark .navbar-nav .nav-link::after {
+		background-color: transparent !important;
+	}
+
+	#mainNav.navbar-shrink {
+		background-color: transparent;
+	}
+
+	.message-box h2 {
+		font-size: 20px;
+		text-align: center;
+	}
+
+	#home .heading h1 {
+		font-size: 25px !important;
+		margin-top: 200px;
+		color: #fff !important;
+		text-align: center;
+		margin-left: 190px;
+		font-weight: 600;
+	}
+
+	.cd-headline .special {
+		text-align: center !important;
+		margin-left: 220px;
+		font-size: x-large !important;
+		
+		
+	}
+
+	.cd-headline .cd-words-wrapper {
+		font-size: 24px !important;
+		text-align: center !important;
+	}
+
+	.btn-ber {
+		font-size: 13px;
+		text-align: center;
+	}
+
+	.services-inner-box h2 {
+		margin-top: -75px;
+		text-align: center;
+	}
+
+	
+	.services-inner-box p {
+		text-align: center;
+	}
+
+	#myBtnContainer .btn {
+		padding: 10px 20px !important;
+		font-size: 15px;
+	}
+
+	.project_grid_overlay h3 {
+		font-size: 18px !important;
+		font-weight: 500;
+	}
+
+}
+
+/* Styles for Laptop - 1024px */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Your CSS styles for Laptop (1024px) here */
+	#home .heading h1 {
+		font-size: 40px !important;
+		margin-top: 300px;
+		color: #fff !important;
+		text-align: center;
+		margin-left: 300px;
+		font-weight: 600;
+	}
+
+	.cd-headline .special {
+		text-align: center !important;
+		margin-left: 400px;
+		font-size: x-large !important;
+	}
+
+	.cd-headline .cd-words-wrapper {
+		font-size: 24px !important;
+		text-align: center !important;
+	}
+
+	.btn-ber {
+		font-size: 13px;
+		text-align: center;
+	}
+
+	.message-box h2 {
+		text-align: center;
+	}
+
+}
+
+/* Styles for Laptop - 1440px */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    /* Your CSS styles for Laptop (1440px) here */
+	#home .heading h1 {
+		font-size: 40px !important;
+		margin-top: 300px;
+		color: #fff !important;
+		text-align: center;
+		margin-left: 300px;
+		font-weight: 600;
+	}
+
+	.cd-headline .special {
+		text-align: center !important;
+		margin-left: 400px;
+		font-size: x-large !important;
+	}
+
+	.cd-headline .cd-words-wrapper {
+		font-size: 24px !important;
+		text-align: center !important;
+	}
+
+	.btn-ber {
+		font-size: 13px;
+		text-align: center;
+	}
+
+	.message-box h2 {
+		text-align: center;
+	}
+
+}
+
+/* Styles for 4K - 2560px */
+@media only screen and (min-width: 1441px) and (max-width: 2560px) {
+    /* Your CSS styles for 4K here */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
