@@ -258,10 +258,12 @@
 	.message-box h2 {
 		font-size: medium;
 		text-align: center;
+		display: none;
 	}
 
 	.message-box p {
 		text-align: center;
+		margin-top: 100px;
 	}
 
 	.sim-btn {
@@ -281,7 +283,7 @@
 
 	#home .heading h1 {
 		font-size: 15px !important;
-		margin-top: 200px;
+		margin-top: 80px;
 		color: #E788FB !important;
 		text-align: center;
 		margin-left: 30px;
@@ -304,6 +306,7 @@
 	.btn-ber {
 		font-size: 13px;
 		text-align: center;
+		margin-top: -5px;
 	}
 
 	.btn-ber .learn_btn {
@@ -385,10 +388,12 @@
 	.message-box h2 {
 		font-size: medium;
 		text-align: center;
+		display: none;
 	}
 
 	.message-box p {
 		text-align: center;
+		margin-top: 80px;
 	}
 
 	.sim-btn {
@@ -431,6 +436,7 @@
 	.btn-ber {
 		font-size: 13px;
 		text-align: center;
+		margin-top: -10px;
 	}
 
 	.btn-ber .learn_btn {
@@ -518,10 +524,12 @@
 	.message-box h2 {
 		font-size: medium;
 		text-align: center;
+		display: none;
 	}
 
 	.message-box p {
 		text-align: center;
+		margin-top: 100px;
 	}
 
 	.sim-btn {
@@ -557,6 +565,7 @@
 	.btn-ber {
 		font-size: 13px;
 		text-align: center;
+		margin-top: 5px;
 	}
 
 	.btn-ber .learn_btn {
@@ -595,6 +604,8 @@
 /* Styles for Tablet - 768px */
 @media only screen and (min-width: 426px) and (max-width: 768px) {
     /* Your CSS styles for Tablet here */
+	
+	
 	.navbar {
 		background-color: rgba(255, 255, 255, 1%);
 	}
@@ -624,6 +635,13 @@
 
 	#mainNav.navbar-shrink {
 		background-color: transparent;
+	}
+
+	#home {
+		background-image: url(../images/main04.png) !important;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
 	}
 
 	.message-box h2 {
@@ -683,6 +701,13 @@
 /* Styles for Laptop - 1024px */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     /* Your CSS styles for Laptop (1024px) here */
+		#home {
+		background-image: url(../images/main04.png) !important;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	
 	#home .heading h1 {
 		font-size: 40px !important;
 		margin-top: 300px;
@@ -717,18 +742,25 @@
 /* Styles for Laptop - 1440px */
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
     /* Your CSS styles for Laptop (1440px) here */
+		#home {
+		background-image: url(../images/main04.png) !important;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	
 	#home .heading h1 {
 		font-size: 40px !important;
-		margin-top: 300px;
-		color: #fff !important;
+		margin-top: 640px;
+		color: #E788FB !important;
 		text-align: center;
-		margin-left: 300px;
+		margin-left: 400px;
 		font-weight: 600;
 	}
 
 	.cd-headline .special {
 		text-align: center !important;
-		margin-left: 400px;
+		margin-left: 500px;
 		font-size: x-large !important;
 	}
 
@@ -738,8 +770,9 @@
 	}
 
 	.btn-ber {
-		font-size: 13px;
+		font-size: 20px !important;
 		text-align: center;
+		margin-left: 350px;
 	}
 
 	.message-box h2 {
@@ -751,32 +784,10 @@
 /* Styles for 4K - 2560px */
 @media only screen and (min-width: 1441px) and (max-width: 2560px) {
     /* Your CSS styles for 4K here */
+		#home {
+		background-image: url(../images/main04.png) !important;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
