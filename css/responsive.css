@@ -469,6 +469,11 @@
 		font-weight: 500;
 	}
 
+	.my_btn_control button {
+		padding: 10px !important;
+		font-size: 10px !important;
+	}
+
 }
 
 /* Styles for Mobile L - 425px */
@@ -596,6 +601,11 @@
 	.project_grid_overlay h3 {
 		font-size: 12px !important;
 		font-weight: 500;
+	}
+
+	.my_btn_control button {
+		padding: 10px !important;
+		font-size: 10px !important;
 	}
 
 
@@ -789,5 +799,9 @@
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;
+	}
+
+	#home .heading h1 {
+		
 	}
 }

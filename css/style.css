@@ -663,9 +663,6 @@ xclip
     transform: translate(0, 0);
 }
 
-
-
-
 .right-box-pro{
 	position: relative;
 	-webkit-box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.3);
@@ -687,8 +684,6 @@ xclip
     z-index: 0;
 }
 
-
-
 .services-inner-box{
 	padding: 15px;
 	background: #ffffff;
@@ -696,6 +691,7 @@ xclip
 	border-radius: 50px 50px 0px 50px;
 	position: relative;
 	transition: all 0.3s ease-in-out 0s;
+    text-align: center;
 }
 .ser-icon{
 	width: 90px;
@@ -707,7 +703,7 @@ xclip
 }
 .ser-icon i{
 	font-size: 50px;
-	color: #333333;
+	color: #333333 !important;
 }
 .services-inner-box h2{
 	font-size: 22px;

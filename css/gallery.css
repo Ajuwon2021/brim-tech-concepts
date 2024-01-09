@@ -4,12 +4,16 @@
     margin: auto;
   }
   
-  /* Center website */
-  /*.main {
-    max-width: 1000px;
-    margin: auto;
-  }*/
+  .html_2 {
+    background-color: #402878 !important;
+    padding: 10px !important;
+    color: #fff !important;
+  }
   
+    .html_2 h3 {
+    color: #fff !important;
+  }
+
   #portfolio .row {
     margin: 8px -16px;
   }
