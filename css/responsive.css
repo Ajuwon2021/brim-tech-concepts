@@ -326,7 +326,10 @@
 	}
 
 	.services-inner-box h2 {
-		margin-top: -75px;
+		margin-top: -60px;
+		margin-bottom: 15px !important;
+		margin-left: 25px;
+		font-size: 15px;
 	}
 
 	#myBtnContainer .btn {
@@ -338,8 +341,10 @@
 		font-size: 10px !important;
 		font-weight: 500;
 	}
-	
-	
+
+	.ser-icon i {
+		font-size: 40px;
+	}	
 }
 
 /* Styles for Mobile M - 375px */
@@ -475,6 +480,17 @@
 		font-size: 10px !important;
 	}
 
+	.ser-icon i {
+		font-size: 40px;
+	}
+	
+	.services-inner-box h2 {
+		margin-top: -60px;
+		margin-bottom: 15px !important;
+		margin-left: 25px;
+		font-size: 15px;
+	}
+
 }
 
 /* Styles for Mobile L - 425px */
@@ -595,7 +611,7 @@
 	}
 
 	#myBtnContainer .btn {
-		padding: 5px 20px !important;
+		padding: 5px 10px !important;
 		font-size: 12px;
 	}
 
@@ -607,6 +623,17 @@
 	.my_btn_control button {
 		padding: 10px !important;
 		font-size: 10px !important;
+	}
+
+	.ser-icon i {
+		font-size: 40px;
+	}
+	
+	.services-inner-box h2 {
+		margin-top: -60px;
+		margin-bottom: 15px !important;
+		margin-left: 10px;
+		font-size: 18px;
 	}
 
 
@@ -705,6 +732,18 @@
 	.project_grid_overlay h3 {
 		font-size: 18px !important;
 		font-weight: 500;
+	}
+
+	.ser-icon i {
+		font-size: 40px;
+		margin-left: 60px !important;
+	}
+	
+	.services-inner-box h2 {
+		margin-top: 0px;
+		margin-bottom: 15px !important;
+		margin-left: auto !important;
+		font-size: 15px;
 	}
 
 }
